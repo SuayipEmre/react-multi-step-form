@@ -1,0 +1,17 @@
+ background-image: url('../../assets/bg-sidebar-desktop.svg');
+
+ bu şekilde resim kullanmak istediğim zaman ../../ şeklinde ulaşamam.
+
+ webpack build edip bunu tek bir bundle verir. bu ../../ bundle kısmında public klasörüne bak demek.
+ resim kullanmak için tek tek import etmem gerekir.
+
+
+  ${Input}{
+        ${props =>
+        props.hasError && css`
+     
+    border-color: var(--strawberry-red);
+    ` }
+    
+    }
+    kapsayıcıya verdiğim props ile childlara bu şekilde css veririm styled components ile
